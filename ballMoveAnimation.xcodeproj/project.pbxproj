@@ -21,6 +21,7 @@
 		00F19587187CE0F7004B4A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F19569187CE0F6004B4A92 /* UIKit.framework */; };
 		00F1958F187CE0F7004B4A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F1958D187CE0F7004B4A92 /* InfoPlist.strings */; };
 		00F19591187CE0F7004B4A92 /* ballMoveAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F19590187CE0F7004B4A92 /* ballMoveAnimationTests.m */; };
+		00F1959C187CE157004B4A92 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F1959B187CE157004B4A92 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		00F1958C187CE0F7004B4A92 /* ballMoveAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ballMoveAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		00F1958E187CE0F7004B4A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F19590187CE0F7004B4A92 /* ballMoveAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ballMoveAnimationTests.m; sourceTree = "<group>"; };
+		00F1959B187CE157004B4A92 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		00F1956B187CE0F6004B4A92 /* ballMoveAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				00F1959A187CE141004B4A92 /* Res */,
 				00F19574187CE0F6004B4A92 /* AppDelegate.h */,
 				00F19575187CE0F6004B4A92 /* AppDelegate.m */,
 				00F19577187CE0F6004B4A92 /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				00F1958D187CE0F7004B4A92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F1959A187CE141004B4A92 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00F1959B187CE157004B4A92 /* ball.png */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				00F1957E187CE0F6004B4A92 /* Images.xcassets in Resources */,
 				00F19570187CE0F6004B4A92 /* InfoPlist.strings in Resources */,
+				00F1959C187CE157004B4A92 /* ball.png in Resources */,
 				00F19579187CE0F6004B4A92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
